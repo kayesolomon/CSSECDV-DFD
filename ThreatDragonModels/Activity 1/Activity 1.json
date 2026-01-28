@@ -428,8 +428,8 @@
             },
             "vertices": [
               {
-                "x": 410,
-                "y": -160
+                "x": 440,
+                "y": -170
               }
             ]
           },
@@ -480,8 +480,8 @@
             },
             "vertices": [
               {
-                "x": 420,
-                "y": -50
+                "x": 440,
+                "y": -40
               }
             ]
           },
@@ -597,7 +597,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
-              "name": "Trust Boundary",
+              "name": "",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -605,21 +605,89 @@
               "containedElements": []
             },
             "labels": [
-              "Trust Boundary"
+              ""
             ],
-            "id": "14bdf611-a042-4d65-8eb9-a8af9cdba97d",
+            "id": "e6a1d315-0230-4e42-8ed8-cb61ac5fea22",
             "source": {
-              "x": 450,
-              "y": 150
+              "x": 20,
+              "y": 80
             },
             "target": {
-              "x": 470,
-              "y": 520
+              "x": 350,
+              "y": 80
             },
             "vertices": [
               {
-                "x": 390,
+                "x": 170,
+                "y": 130
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "3a4d3748-1ae5-48bb-90e8-7e5f49085859",
+            "source": {
+              "x": 500,
+              "y": 170
+            },
+            "target": {
+              "x": 510,
+              "y": 540
+            },
+            "vertices": [
+              {
+                "x": 430,
                 "y": 330
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "8435b1f4-0960-4085-9743-26a6ce2d2b9a",
+            "source": {
+              "x": 490,
+              "y": -280
+            },
+            "target": {
+              "x": 520,
+              "y": 80
+            },
+            "vertices": [
+              {
+                "x": 440,
+                "y": -100
               }
             ]
           },
@@ -1035,7 +1103,7 @@
           },
           {
             "position": {
-              "x": 538.9999999999998,
+              "x": 595,
               "y": -209.99999999999966
             },
             "size": {
@@ -1170,17 +1238,17 @@
             ],
             "id": "3c1ed4ef-27b8-4d53-8571-e99307d7e8c6",
             "source": {
-              "x": -10,
-              "y": 150
+              "x": -30,
+              "y": 130
             },
             "target": {
-              "x": -10,
-              "y": 550
+              "x": -30,
+              "y": 530
             },
             "vertices": [
               {
-                "x": -80,
-                "y": 350
+                "x": -100,
+                "y": 330
               }
             ]
           }
