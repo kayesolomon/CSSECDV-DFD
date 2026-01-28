@@ -370,6 +370,58 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Auth Verification",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Auth Verification"
+            ],
+            "id": "32c17a0e-19a8-4154-a79d-3bdbb0592d0b",
+            "source": {
+              "x": 240,
+              "y": 230
+            },
+            "target": {
+              "cell": "87de6fb9-1a15-4c92-98b6-a22854c5acb6",
+              "port": "4e385000-f3fd-4afe-8a48-abd4712385be"
+            },
+            "vertices": [
+              {
+                "x": 260,
+                "y": 100
+              }
+            ]
+          },
+          {
             "position": {
               "x": 50,
               "y": 210
@@ -661,12 +713,12 @@
           },
           {
             "position": {
-              "x": 130,
-              "y": 21.000000000000114
+              "x": 55,
+              "y": -209.99999999999966
             },
             "size": {
-              "width": 170,
-              "height": 130
+              "width": 240,
+              "height": 210
             },
             "attrs": {
               "body": {
