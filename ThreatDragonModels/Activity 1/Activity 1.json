@@ -19,12 +19,12 @@
         "cells": [
           {
             "position": {
-              "x": 70,
-              "y": 380
+              "x": -80.00000000000003,
+              "y": 300
             },
             "size": {
-              "width": 112.5,
-              "height": 60
+              "width": 190,
+              "height": 160
             },
             "attrs": {
               "text": {
@@ -132,13 +132,126 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 550,
+              "y": 300
             },
-            "tools": {
+            "size": {
+              "width": 170,
+              "height": 150
+            },
+            "attrs": {
+              "text": {
+                "text": "Web Application"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
               "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
+                {
+                  "group": "top",
+                  "id": "92d8795b-163d-49c8-aac8-b8415c9b3940"
+                },
+                {
+                  "group": "right",
+                  "id": "562cb63a-ee78-4c14-9dad-ae8a398a4985"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4e385000-f3fd-4afe-8a48-abd4712385be"
+                },
+                {
+                  "group": "left",
+                  "id": "58d40321-3e51-4b32-8c13-e8fd5562c52d"
+                }
+              ]
+            },
+            "id": "72219d75-4e75-4c75-9463-e6527f45cb31",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Process",
+              "name": "Web Application",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
             }
           }
         ]
